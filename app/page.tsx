@@ -6,7 +6,7 @@ import { getWeapon } from "../ficha-automatica/src/equipment/weapons";
 
 export default function Home() {
   useEffect(() => {
-    console.log(getWeapon('Dagger'));
+    console.log(getWeapon('Longbow'));
   }, []); // O array vazio garante que isso só seja chamado uma vez quando o componente for montado
 
   return (
