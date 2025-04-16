@@ -304,30 +304,7 @@ const mountsAndVehicles: MountAndVehicle[] = [
   { name: "Wagon", cost: 35, capacity: "500 lb." },
 ];
 
-interface Trinket {
-  description: string;
-}
 
-const trinkets: Trinket[] = [
-  { description: "A small piece of crystal that faintly glows in the moonlight" },
-  { description: "A wooden token with a carving of a smiling face" },
-  { description: "A small, intricately carved box that always seems to be locked (no keyhole)" },
-  { description: "A glass orb filled with swirling mist" },
-  { description: "A feather that changes color when held" },
-];
-
-interface Currency {
-  name: string;
-  value: number;
-}
-
-const currency: Currency[] = [
-  { name: "Copper (cp)", value: 0.01 },
-  { name: "Silver (sp)", value: 0.1 },
-  { name: "Electrum (ep)", value: 0.5 },
-  { name: "Gold (gp)", value: 1 },
-  { name: "Platinum (pp)", value: 10 },
-];
 
 interface Poison {
   name: string;
@@ -379,8 +356,5 @@ export {
   otherTools,
   gamingSets,
   musicalInstruments,
-  mountsAndVehicles,
-  trinkets,
-  currency,
   poisons,
 };
